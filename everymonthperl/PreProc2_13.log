@@ -1,0 +1,581 @@
+正在进行模板初始化...
+进程模板版本 V1.0.1
+模块号:1202 进程号: 1202121301
+告警：无法获取可用日志内存块，请检查日志入库进程(pslogmem2file)、日志归档进程(pslogfilebak)是否已经正常启动
+OMC类型:20100006 使用的内存块,超出最大使用块数:3
+正在进行进程初始化...
+billing_line.13.record_size: 405045
+billing_line.13.record_num: 200
+参数名称：memory.MT_BASE_CONFIG.ipc_key_value
+key：96000022
+size:0
+getNeedSize():60734496
+shm_id=44040730
+打开规则库文件/opt/optps/optps/lib/shared/libRule.so
+初始化完毕！
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=1)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=2)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=3)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=4)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=5)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=6)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+iCount=5012,total=1086638384,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7985  , dt=3270292   ,平均性能: 409
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1776  , dt=111982021   ,平均性能: 63052
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:888  , dt=38452176   ,平均性能: 43302
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:888  , dt=73489324   ,平均性能: 82758
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:848  , dt=1451420   ,平均性能: 1711
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1967  , dt=6934685   ,平均性能: 3525
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1202  , dt=29275162   ,平均性能: 24355
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1202  , dt=105075546   ,平均性能: 87417
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3654  , dt=5533839   ,平均性能: 1514
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1486  , dt=50338079   ,平均性能: 33874
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:27  , dt=40519   ,平均性能: 1500
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3245  , dt=281415609   ,平均性能: 86722
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4544  , dt=209606624   ,平均性能: 46128
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3734  , dt=29657530   ,平均性能: 7942
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:4932  , dt=203718800   ,平均性能: 41305
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:411  , dt=1234755   ,平均性能: 3004
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:160  , dt=10569091   ,平均性能: 66056
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:257  , dt=15311792   ,平均性能: 59578
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:4  , dt=160095   ,平均性能: 40023
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:3110  , dt=4316657   ,平均性能: 1387
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1967  , dt=59806948   ,平均性能: 30405
+iCount=5003,total=1040963500,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7433  , dt=3031030   ,平均性能: 407
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1742  , dt=105316660   ,平均性能: 60457
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:919  , dt=39327392   ,平均性能: 42793
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:823  , dt=65950237   ,平均性能: 80133
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:766  , dt=1291076   ,平均性能: 1685
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1725  , dt=5568041   ,平均性能: 3227
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:959  , dt=24242068   ,平均性能: 25278
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:959  , dt=91414777   ,平均性能: 95323
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3357  , dt=4954967   ,平均性能: 1476
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1387  , dt=46375637   ,平均性能: 33435
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:10  , dt=14650   ,平均性能: 1465
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3313  , dt=294423366   ,平均性能: 88869
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4181  , dt=193359284   ,平均性能: 46247
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3415  , dt=26836085   ,平均性能: 7858
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:4945  , dt=200569709   ,平均性能: 40560
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:364  , dt=1105696   ,平均性能: 3037
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:226  , dt=12985841   ,平均性能: 57459
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:210  , dt=12682921   ,平均性能: 60394
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:4  , dt=273385   ,平均性能: 68346
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2714  , dt=3667137   ,平均性能: 1351
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1725  , dt=51903252   ,平均性能: 30088
+iCount=5008,total=1015490583,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8126  , dt=3293940   ,平均性能: 405
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1900  , dt=106353252   ,平均性能: 55975
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:977  , dt=42327907   ,平均性能: 43324
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:923  , dt=63980872   ,平均性能: 69318
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:723  , dt=1088848   ,平均性能: 1506
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1765  , dt=5734619   ,平均性能: 3249
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:981  , dt=24297547   ,平均性能: 24768
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:981  , dt=85094726   ,平均性能: 86742
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3583  , dt=5281678   ,平均性能: 1474
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1576  , dt=51500729   ,平均性能: 32678
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:17  , dt=44663   ,平均性能: 2627
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3118  , dt=267055435   ,平均性能: 85649
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4507  , dt=200546564   ,平均性能: 44496
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3655  , dt=30652837   ,平均性能: 8386
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:4936  , dt=196820414   ,平均性能: 39874
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:358  , dt=1060679   ,平均性能: 2962
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:182  , dt=9416618   ,平均性能: 51739
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:234  , dt=13978619   ,平均性能: 59737
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2812  , dt=3756426   ,平均性能: 1335
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1765  , dt=52858121   ,平均性能: 29947
+iCount=5009,total=1057268515,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7994  , dt=3288644   ,平均性能: 411
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1947  , dt=116678368   ,平均性能: 59927
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1028  , dt=46252086   ,平均性能: 44992
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:919  , dt=70381161   ,平均性能: 76584
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:783  , dt=1451705   ,平均性能: 1854
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1771  , dt=6121844   ,平均性能: 3456
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:937  , dt=23544992   ,平均性能: 25128
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:937  , dt=87610955   ,平均性能: 93501
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3598  , dt=5571405   ,平均性能: 1548
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1578  , dt=52649610   ,平均性能: 33364
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:23  , dt=39989   ,平均性能: 1738
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3088  , dt=277359404   ,平均性能: 89818
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4518  , dt=208182465   ,平均性能: 46078
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3692  , dt=31016455   ,平均性能: 8400
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:4915  , dt=202786730   ,平均性能: 41258
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:410  , dt=1208798   ,平均性能: 2948
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:184  , dt=12076238   ,平均性能: 65631
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:263  , dt=15872848   ,平均性能: 60353
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:2  , dt=84043   ,平均性能: 42021
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2715  , dt=3841712   ,平均性能: 1414
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1771  , dt=51641591   ,平均性能: 29159
+iCount=5007,total=1044488999,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7601  , dt=3214848   ,平均性能: 422
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1764  , dt=104369354   ,平均性能: 59166
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:909  , dt=40723087   ,平均性能: 44799
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:855  , dt=63607872   ,平均性能: 74395
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:692  , dt=1298079   ,平均性能: 1875
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1753  , dt=6182870   ,平均性能: 3527
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:966  , dt=25175983   ,平均性能: 26062
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:966  , dt=95776425   ,平均性能: 99147
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3423  , dt=5236693   ,平均性能: 1529
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1416  , dt=48301619   ,平均性能: 34111
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:14  , dt=19360   ,平均性能: 1382
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3256  , dt=285989982   ,平均性能: 87834
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4278  , dt=197125722   ,平均性能: 46078
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3504  , dt=28896949   ,平均性能: 8246
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:4926  , dt=201991552   ,平均性能: 41005
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:374  , dt=1136404   ,平均性能: 3038
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:187  , dt=10647886   ,平均性能: 56940
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:239  , dt=13509546   ,平均性能: 56525
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:2  , dt=37346   ,平均性能: 18673
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2757  , dt=3934681   ,平均性能: 1427
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1753  , dt=52224932   ,平均性能: 29791
+iCount=5023,total=1043304370,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7546  , dt=3102001   ,平均性能: 411
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1777  , dt=114030981   ,平均性能: 64170
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:916  , dt=37363531   ,平均性能: 40789
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:861  , dt=76624210   ,平均性能: 88994
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:947  , dt=1815207   ,平均性能: 1916
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1825  , dt=6352593   ,平均性能: 3480
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1049  , dt=25470776   ,平均性能: 24281
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1049  , dt=91952723   ,平均性能: 87657
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3453  , dt=5324758   ,平均性能: 1542
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1391  , dt=48475390   ,平均性能: 34849
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:28  , dt=51709   ,平均性能: 1846
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3288  , dt=277912732   ,平均性能: 84523
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4317  , dt=199495499   ,平均性能: 46211
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3560  , dt=27053756   ,平均性能: 7599
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:4916  , dt=204252144   ,平均性能: 41548
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:426  , dt=1332307   ,平均性能: 3127
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:183  , dt=11096320   ,平均性能: 60635
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:235  , dt=14322394   ,平均性能: 60946
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:2  , dt=18851   ,平均性能: 9425
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2795  , dt=3818139   ,平均性能: 1366
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1825  , dt=51613996   ,平均性能: 28281
+iCount=5016,total=1178101872,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7978  , dt=3307126   ,平均性能: 414
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2348  , dt=173244813   ,平均性能: 73783
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1155  , dt=41961224   ,平均性能: 36330
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1193  , dt=131227987   ,平均性能: 109998
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:2526  , dt=4173704   ,平均性能: 1652
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1949  , dt=7592179   ,平均性能: 3895
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1293  , dt=29490660   ,平均性能: 22807
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1293  , dt=101372962   ,平均性能: 78401
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3686  , dt=5862857   ,平均性能: 1590
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1652  , dt=63626491   ,平均性能: 38514
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:57  , dt=84941   ,平均性能: 1490
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3278  , dt=304161851   ,平均性能: 92788
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4881  , dt=230452983   ,平均性能: 47214
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3687  , dt=27201919   ,平均性能: 7377
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5015  , dt=207349429   ,平均性能: 41345
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:768  , dt=2481315   ,平均性能: 3230
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:183  , dt=10836968   ,平均性能: 59218
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:157  , dt=9143477   ,平均性能: 58238
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:5  , dt=239185   ,平均性能: 47837
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2355  , dt=3265808   ,平均性能: 1386
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1949  , dt=56781672   ,平均性能: 29133
+iCount=5004,total=1115802452,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7903  , dt=3175251   ,平均性能: 401
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2397  , dt=163964788   ,平均性能: 68404
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1215  , dt=38003203   ,平均性能: 31278
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1182  , dt=125906833   ,平均性能: 106520
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:2549  , dt=4189104   ,平均性能: 1643
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1841  , dt=6842555   ,平均性能: 3716
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1238  , dt=29544447   ,平均性能: 23864
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1238  , dt=96532756   ,平均性能: 77974
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3626  , dt=5519338   ,平均性能: 1522
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1560  , dt=58186403   ,平均性能: 37298
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:67  , dt=129876   ,平均性能: 1938
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3219  , dt=282383354   ,平均性能: 87723
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4811  , dt=218281584   ,平均性能: 45371
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3626  , dt=24805508   ,平均性能: 6841
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5004  , dt=208289696   ,平均性能: 41624
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:793  , dt=2352271   ,平均性能: 2966
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:144  , dt=8525768   ,平均性能: 59206
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:184  , dt=9435682   ,平均性能: 51280
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2076  , dt=2784227   ,平均性能: 1341
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1841  , dt=50239663   ,平均性能: 27289
+iCount=5016,total=1060410429,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7532  , dt=2995155   ,平均性能: 397
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2384  , dt=160712248   ,平均性能: 67412
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1289  , dt=38875872   ,平均性能: 30159
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1095  , dt=121780634   ,平均性能: 111215
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:2574  , dt=3908477   ,平均性能: 1518
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1665  , dt=6045969   ,平均性能: 3631
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1124  , dt=23962441   ,平均性能: 21318
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1124  , dt=82472153   ,平均性能: 73373
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3461  , dt=5193596   ,平均性能: 1500
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1459  , dt=54032939   ,平均性能: 37034
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:50  , dt=106942   ,平均性能: 2138
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3207  , dt=272723235   ,平均性能: 85039
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4557  , dt=205336008   ,平均性能: 45059
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3474  , dt=21318648   ,平均性能: 6136
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5003  , dt=213928803   ,平均性能: 42760
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:740  , dt=2027147   ,平均性能: 2739
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:125  , dt=7055558   ,平均性能: 56444
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:152  , dt=7464123   ,平均性能: 49106
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:1  , dt=100524   ,平均性能: 100524
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:1846  , dt=2474253   ,平均性能: 1340
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1665  , dt=44079520   ,平均性能: 26474
+iCount=5016,total=1140375771,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7567  , dt=2980879   ,平均性能: 393
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2387  , dt=185257124   ,平均性能: 77610
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1140  , dt=39164378   ,平均性能: 34354
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1247  , dt=146041492   ,平均性能: 117114
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:3200  , dt=5129411   ,平均性能: 1602
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1911  , dt=7210478   ,平均性能: 3773
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1308  , dt=29518153   ,平均性能: 22567
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1308  , dt=95587934   ,平均性能: 73079
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3538  , dt=5419719   ,平均性能: 1531
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1648  , dt=59339333   ,平均性能: 36006
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:68  , dt=118522   ,平均性能: 1742
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3380  , dt=301981400   ,平均性能: 89343
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4785  , dt=214335651   ,平均性能: 44793
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3547  , dt=20791947   ,平均性能: 5861
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5007  , dt=202394514   ,平均性能: 40422
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:933  , dt=2575611   ,平均性能: 2760
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:138  , dt=7898136   ,平均性能: 57232
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:168  , dt=8434456   ,平均性能: 50205
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:1  , dt=16308   ,平均性能: 16308
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:1941  , dt=2643505   ,平均性能: 1361
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1911  , dt=51470012   ,平均性能: 26933
+iCount=5016,total=1159479860,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7408  , dt=2945081   ,平均性能: 397
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2331  , dt=179050500   ,平均性能: 76812
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1134  , dt=34902041   ,平均性能: 30777
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1197  , dt=144098926   ,平均性能: 120383
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:3200  , dt=5462254   ,平均性能: 1706
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1998  , dt=7860442   ,平均性能: 3934
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1377  , dt=31870121   ,平均性能: 23144
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1377  , dt=111069828   ,平均性能: 80660
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3569  , dt=5524468   ,平均性能: 1547
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1533  , dt=57150114   ,平均性能: 37279
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:78  , dt=139266   ,平均性能: 1785
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3443  , dt=296783480   ,平均性能: 86199
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4768  , dt=219441330   ,平均性能: 46023
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3571  , dt=19476637   ,平均性能: 5454
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5014  , dt=207787961   ,平均性能: 41441
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:919  , dt=2698255   ,平均性能: 2936
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:144  , dt=8871662   ,平均性能: 61608
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:155  , dt=7864144   ,平均性能: 50736
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:1  , dt=7330   ,平均性能: 7330
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2158  , dt=3082470   ,平均性能: 1428
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1998  , dt=55455352   ,平均性能: 27755
+iCount=5016,total=1146792277,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:7481  , dt=2987426   ,平均性能: 399
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2329  , dt=177771811   ,平均性能: 76329
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1171  , dt=37087097   ,平均性能: 31671
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1158  , dt=140631018   ,平均性能: 121443
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:2960  , dt=4866252   ,平均性能: 1644
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:2081  , dt=7708257   ,平均性能: 3704
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1383  , dt=31421983   ,平均性能: 22720
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1383  , dt=105346792   ,平均性能: 76172
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3701  , dt=5758931   ,平均性能: 1556
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1502  , dt=56474516   ,平均性能: 37599
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:64  , dt=113947   ,平均性能: 1780
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3396  , dt=284289824   ,平均性能: 83713
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4861  , dt=221647604   ,平均性能: 45597
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3701  , dt=21586751   ,平均性能: 5832
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5016  , dt=209404887   ,平均性能: 41747
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:880  , dt=2559067   ,平均性能: 2908
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:148  , dt=8083963   ,平均性能: 54621
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:173  , dt=8786256   ,平均性能: 50787
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:5  , dt=102648   ,平均性能: 20529
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2397  , dt=3327247   ,平均性能: 1388
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:2081  , dt=56209621   ,平均性能: 27010
+接收到低水控制(减少子进程)命令
+告警：无法获取可用日志内存块，请检查日志入库进程(pslogmem2file)、日志归档进程(pslogfilebak)是否已经正常启动
+OMC类型:20100006 使用的内存块,超出最大使用块数:3
+子进程6退出
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=6)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+接收到低水控制(减少子进程)命令
+告警：无法获取可用日志内存块，请检查日志入库进程(pslogmem2file)、日志归档进程(pslogfilebak)是否已经正常启动
+OMC类型:20100006 使用的内存块,超出最大使用块数:3
+子进程6退出
+接收到高水控制(增加子进程)命令
+增加子进程(子进程序号=6)... _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+ _g_2ORA_USER:tpss_config_rel - _g_2ORA_PWD:****** - _g_2ORA_ALIAS:tpssdb
+成功！
+iCount=5006,total=1155959419,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8149  , dt=3392738   ,平均性能: 416
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2060  , dt=143441638   ,平均性能: 69631
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1050  , dt=45545057   ,平均性能: 43376
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1010  , dt=97846959   ,平均性能: 96878
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:1619  , dt=2983594   ,平均性能: 1842
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1848  , dt=7084816   ,平均性能: 3833
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1245  , dt=29090519   ,平均性能: 23365
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1245  , dt=102619684   ,平均性能: 82425
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3688  , dt=5860580   ,平均性能: 1589
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1628  , dt=60003086   ,平均性能: 36856
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:28  , dt=40638   ,平均性能: 1451
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3166  , dt=300450078   ,平均性能: 94898
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4699  , dt=224464634   ,平均性能: 47768
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3688  , dt=28186946   ,平均性能: 7642
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5006  , dt=213666176   ,平均性能: 42682
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:577  , dt=1778950   ,平均性能: 3083
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:183  , dt=11411990   ,平均性能: 62360
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:266  , dt=14770294   ,平均性能: 55527
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:3  , dt=130743   ,平均性能: 43581
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2535  , dt=3609867   ,平均性能: 1424
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1848  , dt=54304611   ,平均性能: 29385
+iCount=5006,total=1120148527,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:9017  , dt=3746771   ,平均性能: 415
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2232  , dt=139945872   ,平均性能: 62699
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1093  , dt=46908530   ,平均性能: 42917
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1139  , dt=92987196   ,平均性能: 81639
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:1254  , dt=2155487   ,平均性能: 1718
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1944  , dt=6977275   ,平均性能: 3589
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1185  , dt=27224257   ,平均性能: 22974
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1185  , dt=100440824   ,平均性能: 84760
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3999  , dt=6047278   ,平均性能: 1512
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1859  , dt=64284080   ,平均性能: 34579
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:21  , dt=52822   ,平均性能: 2515
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:2951  , dt=261113506   ,平均性能: 88483
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:5138  , dt=234644684   ,平均性能: 45668
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3999  , dt=35812691   ,平均性能: 8955
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5006  , dt=209020679   ,平均性能: 41754
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:459  , dt=1421486   ,平均性能: 3096
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:205  , dt=12750640   ,平均性能: 62198
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:213  , dt=11141495   ,平均性能: 52307
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:3  , dt=80056   ,平均性能: 26685
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2965  , dt=3966559   ,平均性能: 1337
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1944  , dt=55523076   ,平均性能: 28561
+iCount=5006,total=1102572974,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8681  , dt=3569277   ,平均性能: 411
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2064  , dt=125920235   ,平均性能: 61007
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1046  , dt=45750710   ,平均性能: 43738
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1018  , dt=80124171   ,平均性能: 78707
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:1103  , dt=1882594   ,平均性能: 1706
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1937  , dt=6652588   ,平均性能: 3434
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1199  , dt=27463631   ,平均性能: 22905
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1199  , dt=102146214   ,平均性能: 85192
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3876  , dt=5821565   ,平均性能: 1501
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1734  , dt=58881538   ,平均性能: 33957
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:36  , dt=54526   ,平均性能: 1514
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3067  , dt=274051826   ,平均性能: 89355
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4896  , dt=225768032   ,平均性能: 46112
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3876  , dt=31921958   ,平均性能: 8235
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5006  , dt=202478722   ,平均性能: 40447
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:487  , dt=1354998   ,平均性能: 2782
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:154  , dt=9131753   ,平均性能: 59297
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:289  , dt=14586507   ,平均性能: 50472
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:3  , dt=139011   ,平均性能: 46337
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2895  , dt=3916963   ,平均性能: 1353
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1937  , dt=56780964   ,平均性能: 29313
+iCount=5006,total=1090036602,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8272  , dt=3519886   ,平均性能: 425
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1972  , dt=124800921   ,平均性能: 63286
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:998  , dt=44389941   ,平均性能: 44478
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:974  , dt=80366160   ,平均性能: 82511
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:887  , dt=1542851   ,平均性能: 1739
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1783  , dt=6266220   ,平均性能: 3514
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1025  , dt=22814882   ,平均性能: 22258
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1025  , dt=84520118   ,平均性能: 82458
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3707  , dt=5906981   ,平均性能: 1593
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1653  , dt=56774540   ,平均性能: 34346
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:24  , dt=43860   ,平均性能: 1827
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3082  , dt=278705003   ,平均性能: 90429
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4683  , dt=220802335   ,平均性能: 47149
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3707  , dt=33116061   ,平均性能: 8933
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5006  , dt=213422868   ,平均性能: 42633
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:417  , dt=1439796   ,平均性能: 3452
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:189  , dt=11577665   ,平均性能: 61257
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:274  , dt=14707592   ,平均性能: 53677
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:2  , dt=44365   ,平均性能: 22182
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2731  , dt=3751464   ,平均性能: 1373
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1783  , dt=54253958   ,平均性能: 30428
+iCount=5006,total=1079384799,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8458  , dt=3525299   ,平均性能: 416
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2029  , dt=131067418   ,平均性能: 64597
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1037  , dt=46280475   ,平均性能: 44629
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:992  , dt=84736732   ,平均性能: 85420
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:997  , dt=1864810   ,平均性能: 1870
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1905  , dt=6657698   ,平均性能: 3494
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1070  , dt=23005915   ,平均性能: 21500
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1070  , dt=90962304   ,平均性能: 85011
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3896  , dt=6039379   ,平均性能: 1550
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1751  , dt=57701096   ,平均性能: 32953
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:17  , dt=28835   ,平均性能: 1696
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3015  , dt=259229846   ,平均性能: 85980
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4888  , dt=220013185   ,平均性能: 45010
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3896  , dt=31326269   ,平均性能: 8040
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5006  , dt=210460337   ,平均性能: 42041
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:444  , dt=1370324   ,平均性能: 3086
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:203  , dt=12566334   ,平均性能: 61903
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:303  , dt=14209162   ,平均性能: 46894
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:1  , dt=137915   ,平均性能: 137915
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2922  , dt=4055579   ,平均性能: 1387
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1905  , dt=54971190   ,平均性能: 28856
+iCount=5004,total=1112085103,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8329  , dt=3520048   ,平均性能: 422
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1879  , dt=113949708   ,平均性能: 60643
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:961  , dt=44714069   ,平均性能: 46528
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:918  , dt=69193386   ,平均性能: 75374
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:804  , dt=1378009   ,平均性能: 1713
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1818  , dt=6526740   ,平均性能: 3590
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1136  , dt=27649622   ,平均性能: 24339
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1136  , dt=101521008   ,平均性能: 89367
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3621  , dt=5746697   ,平均性能: 1587
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1575  , dt=57088407   ,平均性能: 36246
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:14  , dt=27793   ,平均性能: 1985
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3201  , dt=291759215   ,平均性能: 91146
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4542  , dt=213958402   ,平均性能: 47106
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3621  , dt=32991308   ,平均性能: 9111
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5004  , dt=221034358   ,平均性能: 44171
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:336  , dt=1017176   ,平均性能: 3027
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:173  , dt=10325647   ,平均性能: 59685
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:193  , dt=10937869   ,平均性能: 56672
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:1  , dt=34472   ,平均性能: 34472
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2964  , dt=4118927   ,平均性能: 1389
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1818  , dt=53566708   ,平均性能: 29464
+iCount=5016,total=1205454343,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8717  , dt=3775505   ,平均性能: 433
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2039  , dt=141959284   ,平均性能: 69622
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:962  , dt=44733386   ,平均性能: 46500
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1077  , dt=97177553   ,平均性能: 90229
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:1166  , dt=2381464   ,平均性能: 2042
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:2037  , dt=7415560   ,平均性能: 3640
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1263  , dt=33032024   ,平均性能: 26153
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1263  , dt=127523818   ,平均性能: 100968
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3850  , dt=6029925   ,平均性能: 1566
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1652  , dt=63352803   ,平均性能: 38349
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:44  , dt=87976   ,平均性能: 1999
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3203  , dt=297987324   ,平均性能: 93033
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4930  , dt=238609852   ,平均性能: 48399
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3850  , dt=37263023   ,平均性能: 9678
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5016  , dt=209184239   ,平均性能: 41703
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:433  , dt=1408215   ,平均性能: 3252
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:209  , dt=13226626   ,平均性能: 63285
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:197  , dt=12824901   ,平均性能: 65101
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:3  , dt=52129   ,平均性能: 17376
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:3205  , dt=4480116   ,平均性能: 1397
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:2037  , dt=62235339   ,平均性能: 30552
+iCount=5016,total=1112090477,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8257  , dt=3499231   ,平均性能: 423
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1965  , dt=125469254   ,平均性能: 63852
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1040  , dt=48612981   ,平均性能: 46743
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:925  , dt=76808946   ,平均性能: 83036
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:838  , dt=1457311   ,平均性能: 1739
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1923  , dt=6372978   ,平均性能: 3314
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1071  , dt=25956634   ,平均性能: 24235
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1071  , dt=101926853   ,平均性能: 95169
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3730  , dt=5805633   ,平均性能: 1556
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1556  , dt=53489597   ,平均性能: 34376
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:54  , dt=91836   ,平均性能: 1700
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3209  , dt=281964677   ,平均性能: 87866
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4658  , dt=218158902   ,平均性能: 46835
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3730  , dt=31151471   ,平均性能: 8351
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5016  , dt=216103548   ,平均性能: 43082
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:404  , dt=1278509   ,平均性能: 3164
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:201  , dt=11298172   ,平均性能: 56209
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:230  , dt=14099047   ,平均性能: 61300
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:2  , dt=33045   ,平均性能: 16522
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:3037  , dt=4066105   ,平均性能: 1338
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1923  , dt=56296630   ,平均性能: 29275
+iCount=5016,total=1162594786,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8235  , dt=3487642   ,平均性能: 423
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1946  , dt=130959217   ,平均性能: 67296
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:998  , dt=47095800   ,平均性能: 47190
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:948  , dt=83816886   ,平均性能: 88414
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:920  , dt=1686641   ,平均性能: 1833
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:2013  , dt=7037758   ,平均性能: 3496
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1130  , dt=30024683   ,平均性能: 26570
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1130  , dt=118120963   ,平均性能: 104531
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3769  , dt=5853038   ,平均性能: 1552
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1583  , dt=56106981   ,平均性能: 35443
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:42  , dt=100331   ,平均性能: 2388
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3260  , dt=295901761   ,平均性能: 90767
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4720  , dt=223795071   ,平均性能: 47414
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3769  , dt=31040501   ,平均性能: 8235
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5016  , dt=209894527   ,平均性能: 41845
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:425  , dt=1267185   ,平均性能: 2981
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:272  , dt=16631553   ,平均性能: 61145
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:218  , dt=14180234   ,平均性能: 65046
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:1  , dt=35462   ,平均性能: 35462
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:3176  , dt=4610567   ,平均性能: 1451
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:2013  , dt=61371995   ,平均性能: 30487
+iCount=5016,total=1146537112,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8551  , dt=3613274   ,平均性能: 422
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:2059  , dt=139011450   ,平均性能: 67514
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:1001  , dt=47467704   ,平均性能: 47420
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:1058  , dt=91495644   ,平均性能: 86479
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:1091  , dt=2012301   ,平均性能: 1844
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1854  , dt=6874923   ,平均性能: 3708
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1070  , dt=28075891   ,平均性能: 26239
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1070  , dt=109889073   ,平均性能: 102700
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3700  , dt=5622994   ,平均性能: 1519
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1695  , dt=59429503   ,平均性能: 35061
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:39  , dt=71371   ,平均性能: 1830
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3170  , dt=286943723   ,平均性能: 90518
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4760  , dt=221444780   ,平均性能: 46522
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3700  , dt=35413937   ,平均性能: 9571
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5016  , dt=211179908   ,平均性能: 42101
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:414  , dt=1305569   ,平均性能: 3153
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:248  , dt=15911091   ,平均性能: 64157
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:195  , dt=11740644   ,平均性能: 60208
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:2  , dt=38331   ,平均性能: 19165
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2875  , dt=3971765   ,平均性能: 1381
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1854  , dt=55476191   ,平均性能: 29922
+iCount=5016,total=1128485775,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8072  , dt=3475057   ,平均性能: 430
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1930  , dt=129461758   ,平均性能: 67078
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:974  , dt=43842221   ,平均性能: 45012
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:956  , dt=85572470   ,平均性能: 89510
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:988  , dt=1956537   ,平均性能: 1980
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1859  , dt=6787178   ,平均性能: 3650
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1051  , dt=26532775   ,平均性能: 25245
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1051  , dt=103928234   ,平均性能: 98885
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3619  , dt=5760354   ,平均性能: 1591
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1539  , dt=55056195   ,平均性能: 35774
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:35  , dt=73250   ,平均性能: 2092
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3256  , dt=293956768   ,平均性能: 90281
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4579  , dt=216267950   ,平均性能: 47230
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3619  , dt=31739469   ,平均性能: 8770
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5016  , dt=213970587   ,平均性能: 42657
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:416  , dt=1305292   ,平均性能: 3137
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:225  , dt=13447984   ,平均性能: 59768
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:224  , dt=14019113   ,平均性能: 62585
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:4  , dt=89440   ,平均性能: 22360
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:2886  , dt=4129748   ,平均性能: 1430
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1859  , dt=55402938   ,平均性能: 29802
+iCount=5003,total=1162934661,rate(n/s)=4
+funName:Rule_PreProc2_SetTicketType , line457 , cnt:8405  , dt=3486076   ,平均性能: 414
+funName:Rule_PreProc2_GetProd_IsMixMeal , line555 , cnt:1914  , dt=128893054   ,平均性能: 67342
+funName:Rule_PreProc2_GetProd_IsMixMeal_3 , line569 , cnt:974  , dt=47416083   ,平均性能: 48681
+funName:Rule_PreProc2_GetProd_IsMixMeal_4 , line694 , cnt:940  , dt=81433423   ,平均性能: 86631
+funName:Rule_PreProc2_IsMixMeal_NO_Record , line1120 , cnt:1074  , dt=1808939   ,平均性能: 1684
+funName:Rule_PreProc2_IsMixMeal , line1173 , cnt:1957  , dt=7464798   ,平均性能: 3814
+funName:Rule_PreProc2_GetMktUserType , line1363 , cnt:1216  , dt=30374298   ,平均性能: 24978
+funName:Rule_PreProc2_GetFlTyp , line1476 , cnt:1216  , dt=119962545   ,平均性能: 98653
+funName:Rule_PreProc2_GetOrgType , line1705 , cnt:3686  , dt=5515170   ,平均性能: 1496
+funName:Rule_PreProc2_GetProductOfferID , line1914 , cnt:1591  , dt=56159614   ,平均性能: 35298
+funName:Rule_PreProc2_GetThirdOrgID , line2156 , cnt:41  , dt=66688   ,平均性能: 1626
+funName:Rule_PreProc2_GetCustType , line2320 , cnt:3274  , dt=301096409   ,平均性能: 91965
+funName:Rule_PreProc2_PreOpenning_User , line2398 , cnt:4631  , dt=215826516   ,平均性能: 46604
+funName:Rule_PreProc2_GetIbs_Prod_Type , line2609 , cnt:3686  , dt=30609991   ,平均性能: 8304
+funName:Rule_Preproc2_WriteBillCycle , line2805 , cnt:5003  , dt=216350481   ,平均性能: 43244
+funName:Rule_Preproc2_GetChainShopBySaleID , line5377 , cnt:414  , dt=1349882   ,平均性能: 3260
+funName:Rule_Preproc2_MainProdOfferIdByOrderItemId , line5832 , cnt:228  , dt=13416939   ,平均性能: 58846
+funName:Rule_Preproc2_IsMealEffective , line6318 , cnt:232  , dt=14482660   ,平均性能: 62425
+funName:Rule_Preproc2_WriteMktResInfo , line7040 , cnt:2  , dt=95013   ,平均性能: 47506
+funName:Rule_Preproc2_GetFlTypByProdOfferId , line7211 , cnt:3079  , dt=4132038   ,平均性能: 1342
+funName:Rule_Preproc2_PublicNotCDC , line7341 , cnt:1957  , dt=58980269   ,平均性能: 30138
